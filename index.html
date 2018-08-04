@@ -1,104 +1,92 @@
-<!DOCTYPE <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>About Me - Ruben Ruiz</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<!--Reference BootStrap CDN-->
+  <title>Ruben Ruiz Git Porfolio</title>
 
-        <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+  <!-- Reset CSS-->
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
 
-<!--Custom styles to modify Bootstrap-->
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 
-        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css" />
-        <!-- IE -->
-        <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico" />
-        <!-- other browsers -->
-        <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
-    </head>
-    <body>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
 
-<!--Navigation and Header-->
+  <!-- Font Awesome JS -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <!-- Sidebar -->
+    <nav id="sidebar">
+      <div class="sidebar-header">
+        <h3>Ruben Ruiz</h3>
+        <strong>RR</strong>
+      </div>
+      <ul class="list-unstyled components">
+        <li class="active">
+          <a href="#"><i class="fas fa-home"></i>
+            Welcome</a>
+        </li>
+        <li>
+          <a href="portfolio.html"><i class="fas fa-briefcase"></i>
+            Projects</a>
+        </li>
+      </ul>
+      <div class="sidebar-header">
+        <h3>Social Stuff</h3>
+        <strong>SS</strong>
+      </div>
+      <ul class="list-unstyled components">
+        <li><a href="https://www.linkedin.com/in/texasruben/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+            linkedin</a>
+        </li>
+        <li><a href="https://twitter.com/Ruben_R" target="_blank">
+          <i class="fab fa-twitter"></i>
+            Twitter</a>
+        </li>
+      </ul>
+    </nav>
 
-        <header>
-            <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-light bg-white mt-0 mb-0 pb-0 align-top">
-                    <a class="navbar-brand title text-light text-center" href="index.html">
-                        Ruben Ruiz
-                    </a>
-                </nav>
-            </div>
-        </header>
+    <!-- Page Content -->
+    <div id="content">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <button type="button" id="sidebarCollapse" class="btn btn-info">
+              <i class="fas fa-align-left"></i>
+              <span>Toggle Sidebar</span>
+            </button>
+            <h1>Welcome</h1>
+          </div>
+        </nav>
+      <h3>WhoAmI?</h3>
+      <div class="line"></div>
+      <p>
+        <img src="assets/images/profile.jpg" alt="Ruben Ruiz photo" title="Ruben Ruiz" width="12%" class="imgtxtwrap" />An ambitious, proactive full stack developer with over 15 years of supporting a wide range of backend IT technologies that has shifted toward creating and supporting frontend web applications. Exemplary leadership and presentation skills when it comes to supporting or starting a new project developed from years in the IT industry. An acute ability to focus on pertinent details with the ability to spike knowledge in a new area without hesitation.
+      </p>
+        <h5>System Knowledge:</h5>
+        <p>
+        Extensive experience with web management, email services, system design, and Sys Ops. Fundamental dev knowledge in PHP, MySQL, NODE, JQuery, and Javascript. Sys Ops knowledge in Exchange, Google for Business, Office 365 for Business, Amazon Elastic Computing, Windows Server, and Linux. Highly adept at learning new methods/systems and agile to new concepts.
+      </p>
+      <div class="line"></div>
+    </div>
+  </div>
+  <!-- jQuery CDN - Slim version -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
-<!--Main content area-->
-    
-        <main class="container mb-5">
-            <div class="row pl-4 pr-4 mb-5">
-                <div class="col bg-white p-3 border">
-                    <h1>
-                        About Me
-                    </h1>
-                    <hr />
-                    <img src="assets/images/Ruben_R.png" alt="Ruben Ruiz photo" title="Ruben Ruiz" width="30%" class="imgtxtwrap" />
-                    <p>
-                        My name is Ruben Ruiz and I have over 15 years of supporting a wide range of backend IT technologies within the education industry.  My focus has shifted toward creating and supporting frontend web applications as a full stack developer.  With exemplary leadership and presentation skills, I am not timid when it comes to starting a new project or initiative.  My years in the IT industry have honed my ability to focus on pertinent details with the ability to spike my knowledge in a new area without hesitation.  An example of my published work can be found on <a href="https://www.computer.org/csdl/proceedings/itng/2010/3984/00/3984b092-abs.html" target="_blank">
-                            IEEE Computer Society
-                        </a>
-                    </p>   
-                    <p>
-                        <strong>
-                            Geeky stuff: 
-                        </strong>
-                        <br />
-                        Extensive experience on web management, email services, system design, and Sys Ops. Fundamental dev knowledge in PHP, MySQL, IIS, Drupal, Wordpress, and Moodle. Sys Ops knowledge in Exchange, Google for Business, Office 365 for Business, Amazon Elastic Computing, Windows Server, and Linux. Highly adept at learning new methods/systems and agile to new concepts.    
-                    </p>
-                </div>
-                <div class="col-md-1 mb-5"> 
+  <!-- Popper.JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
 
-                    <!-- blank on purpose. To create a larger gutter-->
-                
-                </div>
-                <div class="col-md-4 align-self-start bg-white p-3 mb-5 border">
-                    <h4 class="bg-white">
-                        More About Me
-                    </h4>
-                    <hr />
-                    <div class="row bg-white clearfix">
-                        <div class="col">
-                            <a href="https://www.linkedin.com/in/texasruben/" target="_blank">
-                                <i class="fab fa-linkedin fa-4x" title="LinkedIn Profile"></i>
-                            </a>
-                        </div>
-                        <div class="col">
-                            <a href="https://twitter.com/Ruben_R" target="_blank">
-                                <i class="fab fa-twitter-square fa-4x" title="Twitter Profile"></i>
-                            </a>
-                        </div>
-                        <div class="col">
-                            <a href="assets/images/Ruben-Ruiz-Resume-final.pdf" target="_blank">
-                                <i class="fas fa-file-alt fa-4x" title="My Resume"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </main>
-<!--Footer-->
-        <footer class="footer font-small green pt-4">
-            <div class="container-fluid text-center">
-                <div class="row">
-                    <div class="col-sm-12">
-                        @Copyright 2018 - Ruben Ruiz
-                    </div>
-                </div>
-            </div>
-        </footer>
-    </body>
+  <!-- Bootstrap JS -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+  <!-- My javascript -->
+  <script src="assets/js/main.js"></script>
+</body>
 </html>
